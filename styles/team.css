@@ -1,0 +1,153 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family:'Montserrat', sans-serif; ;
+}
+
+.hero{
+      background: url('/img/—Pngtree—technology\ network\ digital\ diagram\ geometric_9000623.png');
+      background-color: black;
+      width: 100%;
+      height: auto;
+      background-size: cover;
+}
+nav{
+      width: 100%;
+      display: flex;
+      background-color: black;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 80px;
+      border-bottom: 1px solid rgb(84, 79, 69);
+}
+ul{
+      list-style: none;
+}
+li{
+      display: inline;
+      padding: 0 20px;
+}
+.menu-icon {
+      color: white;
+      font-size: 30px;
+      display: none;
+}
+a{
+      text-decoration: none;
+      color: white;
+      transition: 0.3s all ease-in;
+      font-size: 1rem;
+      font-weight: 300;
+}
+h1 {
+      color: white;
+}
+p {
+      color: white;
+      margin-top: 10px;
+}
+.click {
+      margin-top: 15px;
+      padding: 8px 20px;
+      background-color: orange;
+      border: none;
+      transition: 0.3s all ease;
+}
+.click:hover {
+      background-color: black;
+      border: 1px solid orange;
+      color: white;
+      overflow: hidden;
+}
+.orange {
+      color: orange;
+}
+a:hover {
+      color: orange;
+}
+span{
+      color: white;
+      font-size: 2rem;
+}
+.MR {
+      color: orange;
+}
+.btn {
+      padding: 5px 20px;
+      border: none;
+      background-color: orange;
+      cursor: pointer;
+      transition: 0.3s all ease;
+}
+.btn:hover {
+      background-color: black;
+      border: 1px solid orange;
+      color: white;
+}
+
+.flex-container{
+      width: 100%;
+      height: 100%;
+      display: flex;   
+      padding: 0 30px; 
+      justify-content: center;
+      align-items: center;
+}
+
+.flex-L {
+      padding: 60px;
+}
+
+.img img {
+      width: 100%;
+      height: auto;
+      margin-top: 35px;
+
+      
+}
+.flex-R{
+     height: 100%;
+}
+
+@media (max-width: 991px){
+      .flex-container{
+           height: 100vh;
+      }
+      .img {
+            margin-top: 100px;
+            width: auto;
+            height: auto;
+      }
+}
+
+@media (max-width: 768px){
+      .flex-container{
+            width: auto;
+      }
+      .img {
+            margin-top: 200px;
+      }
+      nav ul {
+            display: none;
+      }
+      .btn {
+            display: none;
+      }
+      .menu-icon {
+            display: block;
+      }
+}
+
+@media (max-width: 448px){
+      .flex-container{
+            height: auto;
+            flex-direction: column-reverse;
+            
+      }
+      .in-container{
+            display: flex;
+            flex-direction: column-reverse;
+            margin-top: -100px;
+      }
+}
