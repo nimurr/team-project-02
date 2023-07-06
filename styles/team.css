@@ -89,12 +89,18 @@ span{
 .flex-container{
       width: 100%;
       height: 100%;
-      display: flex;   
+      /* display: flex;    */
       padding: 0 30px; 
       justify-content: center;
       align-items: center;
 }
-
+.in-container{
+      display: grid;
+      grid-template-columns: repeat(auto-fit , minmax(300px ,1fr ));
+      padding: 0 30px; 
+      justify-content: center;
+      align-items: center;
+}
 .flex-L {
       padding: 60px;
 }
